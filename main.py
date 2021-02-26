@@ -190,6 +190,7 @@ def showthree():
     laVer.pack()
     boite21 = Spinbox(frameThree, from_=0, to=3, increment=1, width=5, textvariable=Valeur20, command=carre)
     boite21.pack()
+
     laVer = Label(frameThree, text='Rouler au pas :')
     laVer.pack()
     boite22 = Spinbox(frameThree, from_=0, to=3, increment=1, width=5, textvariable=Valeur21, command=carre)
