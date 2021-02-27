@@ -3,12 +3,21 @@
 # -*- coding: utf-8 -*-
 import json
 from tkinter import *
+from datetime import date
 
 
 def carre():
-    total = int(Valeur.get()) + int(Valeur2.get()) + int(Valeur3.get()) + int(Valeur2.get()) + int(Valeur4.get()) + int(
+    total = int(Valeur.get()) + int(Valeur2.get()) + int(Valeur3.get()) + int(Valeur4.get()) + int(
         Valeur5.get()) + int(Valeur6.get()) + int(Valeur7.get()) + int(Valeur8.get()) + int(Valeur9.get()) + int(
-        Valeur10.get()) + int(Valeur11.get()) + int(Valeur12.get()) + int(Valeur13.get()) + int(Valeur14.get()) + int(Valeur15.get())  + int(Valeur16.get())  + int(Valeur17.get()) + int(Valeur18.get()) + int(Valeur19.get()) + int(Valeur20.get()) + int(Valeur21.get()) + int(Valeur22.get()) + int(Valeur22.get()) + int(Valeur23.get()) + int(Valeur24.get()) + int(Valeur25.get()) + int(Valeur26.get()) + int(Valeur27.get()) + int(Valeur28.get())
+        Valeur10.get()) + int(Valeur11.get()) + int(Valeur12.get()) + int(Valeur13.get()) + int(Valeur14.get()) + \
+            int(Valeur15.get())
+    + int(Valeur16.get()) + int(Valeur17.get()) + int(Valeur18.get()) + int(Valeur19.get()) + int(Valeur20.get()) + \
+    int(Valeur21.get()) + int(Valeur22.get()) + int(Valeur22.get()) + int(Valeur23.get()) + int(Valeur24.get()) + \
+    int(Valeur25.get()) + int(Valeur26.get()) + int(Valeur27.get()) + int(Valeur28.get()) + int(Valeur29.get()) + \
+    int(Valeur30.get()) + int(Valeur31.get()) + int(Valeur32.get()) + int(Valeur33.get()) + int(Valeur34.get()) + \
+    int(Valeur35.get()) + int(Valeur36.get()) + int(Valeur37.get()) + int(Valeur38.get()) + int(Valeur39.get()) + \
+    int(Valeur40.get()) + int(Valeur41.get()) + int(Valeur42.get()) + int(Valeur43.get()) + int(Valeur44.get()) + \
+    int(Valeur45.get()) + int(Valeur46.get()) + int(Valeur47.get())
     return total
 
 
@@ -89,7 +98,6 @@ def showtwo():
 
     boite = Spinbox(frameTwo, from_=0, to=3, increment=1, width=5, textvariable=Valeur, command=carre)
     boite.pack()
-    a = boite.get()
 
     laVer = Label(frameTwo, text='Installation au poste de conduite :')
     laVer.pack()
@@ -154,9 +162,9 @@ def showtwo():
 
 def showthree():
     total = carre()
-    print(total)
+
     Resultat.set(total)
-    print(Resultat)
+
     frameThree = Toplevel()
     frameThree.grab_set()
     label = Label(frameThree, text='Appréhender la route')
@@ -164,7 +172,7 @@ def showthree():
 
     laVer = Label(frameThree, text='La prise d’information')
     laVer.pack()
-    boite15 = Spinbox(frameThree, from_=0, to=3, increment=1, width=5, textvariable=Valeur15, command=carre)
+    boite15 = Spinbox(frameThree, from_=0, to=3, increment=1, width=5, textvariable=Valeur41, command=carre)
     boite15.pack()
     laVer = Label(frameThree, text='Prendre l\'information vers l\'avant et latéralement :')
     laVer.pack()
@@ -225,7 +233,7 @@ def showthree():
 
 def showfour():
     total = carre()
-    print(total)
+
     frameFour = Toplevel()
     frameFour.grab_set()
     label = Label(frameFour, text='Partager la route avec les autres usagers')
@@ -233,39 +241,39 @@ def showfour():
 
     laVer = Label(frameFour, text='La communication avec les autres usagers')
     laVer.pack()
-    boite28 = Spinbox(frameFour, from_=0, to=3, increment=1, width=5)
+    boite28 = Spinbox(frameFour, from_=0, to=3, increment=1, width=5, textvariable=Valeur27, command=carre)
     boite28.pack()
     laVer = Label(frameFour, text='Utiliser les clignotants dès que cela est nécessaire :')
     laVer.pack()
-    boite29 = Spinbox(frameFour, from_=0, to=3, increment=1, width=5)
+    boite29 = Spinbox(frameFour, from_=0, to=3, increment=1, width=5, textvariable=Valeur28, command=carre)
     boite29.pack()
     laVer = Label(frameFour, text='Utiliser les feux stop ou de détresse :')
     laVer.pack()
-    boite30 = Spinbox(frameFour, from_=0, to=3, increment=1, width=5)
+    boite30 = Spinbox(frameFour, from_=0, to=3, increment=1, width=5, textvariable=Valeur40, command=carre)
     boite30.pack()
     laVer = Label(frameFour, text='Utiliser l\'avertisseur sonore (seulement si la situation l\'exige) :')
     laVer.pack()
-    boite31 = Spinbox(frameFour, from_=0, to=3, increment=1, width=5)
+    boite31 = Spinbox(frameFour, from_=0, to=3, increment=1, width=5, textvariable=Valeur29, command=carre)
     boite31.pack()
     laVer = Label(frameFour, text='Le partage de la chaussée :')
     laVer.pack()
-    boite32 = Spinbox(frameFour, from_=0, to=3, increment=1, width=5)
+    boite32 = Spinbox(frameFour, from_=0, to=3, increment=1, width=5, textvariable=Valeur30, command=carre)
     boite32.pack()
     laVer = Label(frameFour, text='Se positionner correctement sur la chaussée :')
     laVer.pack()
-    boite33 = Spinbox(frameFour, from_=0, to=3, increment=1, width=5)
+    boite33 = Spinbox(frameFour, from_=0, to=3, increment=1, width=5, textvariable=Valeur31, command=carre)
     boite33.pack()
     laVer = Label(frameFour, text='Se positionner correctement sur autoroute :')
     laVer.pack()
-    boite34 = Spinbox(frameFour, from_=0, to=3, increment=1, width=5)
+    boite34 = Spinbox(frameFour, from_=0, to=3, increment=1, width=5, textvariable=Valeur32, command=carre)
     boite34.pack()
     laVer = Label(frameFour, text='Veiller aux autres véhicules et distance de sécurité :')
     laVer.pack()
-    boite35 = Spinbox(frameFour, from_=0, to=3, increment=1, width=5)
+    boite35 = Spinbox(frameFour, from_=0, to=3, increment=1, width=5, textvariable=Valeur33, command=carre)
     boite35.pack()
     laVer = Label(frameFour, text='Le maintien des espaces de sécurité :')
     laVer.pack()
-    boite36 = Spinbox(frameFour, from_=0, to=3, increment=1, width=5)
+    boite36 = Spinbox(frameFour, from_=0, to=3, increment=1, width=5, textvariable=Valeur34, command=carre)
     boite36.pack()
 
     BoutonNext = Button(frameFour, text='Suivant', command=showfive)
@@ -276,21 +284,23 @@ def showfour():
 
 
 def showfive():
+    total = carre()
+
     frameFive = Toplevel()
     frameFive.grab_set()
     label = Label(frameFive, text='Autonomie et conscience du risque')
     label.pack()
     laVer = Label(frameFive, text='L’analyse des situations :')
     laVer.pack()
-    boite37 = Spinbox(frameFive, from_=0, to=3, increment=1, width=5)
+    boite37 = Spinbox(frameFive, from_=0, to=3, increment=1, width=5, textvariable=Valeur35, command=carre)
     boite37.pack()
     laVer = Label(frameFive, text='L’adaptation aux situations :')
     laVer.pack()
-    boite38 = Spinbox(frameFive, from_=0, to=3, increment=1, width=5)
+    boite38 = Spinbox(frameFive, from_=0, to=3, increment=1, width=5, textvariable=Valeur36, command=carre)
     boite38.pack()
     laVer = Label(frameFive, text='La conduite autonome :')
     laVer.pack()
-    boite39 = Spinbox(frameFive, from_=0, to=3, increment=1, width=5)
+    boite39 = Spinbox(frameFive, from_=0, to=3, increment=1, width=5, textvariable=Valeur37, command=carre)
     boite39.pack()
 
     BoutonNext = Button(frameFive, text='Suivant', command=showsix)
@@ -301,17 +311,19 @@ def showfive():
 
 
 def showsix():
+    total = carre()
+
     frameSix = Toplevel()
     frameSix.grab_set()
     label = Label(frameSix, text='Point bonus')
     label.pack()
     laVer = Label(frameSix, text='Courtoisie au volant :')
     laVer.pack()
-    boite40 = Spinbox(frameSix, from_=0, to=3, increment=1, width=5)
+    boite40 = Spinbox(frameSix, from_=0, to=3, increment=1, width=5, textvariable=Valeur38, command=carre)
     boite40.pack()
     laVer = Label(frameSix, text='Conduite économique :')
     laVer.pack()
-    boite41 = Spinbox(frameSix, from_=0, to=3, increment=1, width=5)
+    boite41 = Spinbox(frameSix, from_=0, to=3, increment=1, width=5, textvariable=Valeur39, command=carre)
     boite41.pack()
     BoutonNext = Button(frameSix, text='Suivant', command=showfinal)
     BoutonNext.pack(side=LEFT, padx=5, pady=5)
@@ -320,12 +332,27 @@ def showsix():
     BoutonQuitter.pack(side=LEFT, padx=5, pady=5)
 
 
+# Mon parser JSON
+
+def write_my_values(datejour, score):
+
+    inscrire = [{"date": f"{datejour}", "score": f"{score}".format(score)}]
+
+    with open("scores.json", "w") as file:
+        json.dump(inscrire, file)
+
+
 def showfinal():
+    total = carre()
+    print(total)
+    dateConv = date.today()
+    write_my_values(dateConv, total)
+    print(dateConv)
     frameFinal = Toplevel()
     frameFinal.grab_set()
     final = Label(frameFinal, text='Félicitations !')
     final.pack()
-    points = Label(frameFinal, textvariable=Resultat)
+    points = Label(frameFinal, text=" Total des points " + str(int(total)))
     points.pack()
 
 
@@ -342,8 +369,6 @@ def read_values_from_json(path, key):
 
 
 Resultat = IntVar()
-print(carre())
-print(Resultat)
 
 Label1 = Label(Mafenetre, text='Bonjour {} !'.format(read_values_from_json('user.json', 'name')), fg='blue')
 Label1.pack()

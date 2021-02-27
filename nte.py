@@ -1,10 +1,11 @@
 from tkinter import IntVar
 
 from tkinter import *
-
+from datetime import date
 # create Tk window
 root = Tk()
-
+today = date.today()
+print("Today's date:", today)
 # set name of window
 root.title('Testing Values')
 
