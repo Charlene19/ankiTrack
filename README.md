@@ -38,7 +38,7 @@
     <img src="https://github.com/Charlene19/secondBrain/blob/master/static/img/sdbn.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Tracker permis progression</h3>
+  <h3 align="center">Anki style permis progression</h3>
 
   <p align="center">
    Un petit tracker de progression d'apprentissage. Celui-ci est fourni avec des questions autour du permis de conduire mais les questions peuvent être modifiées pour fitter avec les besoins.
@@ -83,7 +83,10 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+
 ![Tracker1](https://github.com/Charlene19/tracker/blob/exec/track2.png)
+
+
 Petit tracker réalisé en Python. Qui permet d'offrir un accueil personnalisé grâce à une persistance du nom, une série de questions modifiables dans le fichier json. 
 Et un calcul de points qui sont inscrit en Json avec la date du jour. 
 Cette application a une interface graphique.
@@ -151,7 +154,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Je suis joignable via mon [site](https://charlene19.github.io/)
 
 
-Project Link:  Link: [https://github.com/Charlene19/tracker/](https://github.com/Charlene19/ankiTrack/)
+Project Link:  Link: [https://github.com/Charlene19/ankiTrack/](https://github.com/Charlene19/ankiTrack/)
 
 
 <!-- ACKNOWLEDGEMENTS -->
