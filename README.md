@@ -34,7 +34,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/Charlene19/tracker">
+  <a href="https://github.com/Charlene19/ankiTrack">
     <img src="https://github.com/Charlene19/secondBrain/blob/master/static/img/sdbn.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -43,7 +43,7 @@
   <p align="center">
    Un petit tracker de progression d'apprentissage. Celui-ci est fourni avec des questions autour du permis de conduire mais les questions peuvent être modifiées pour fitter avec les besoins.
     <br />
-    <a href="https://github.com/Charlene19/tracker"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Charlene19/ankiTrack"><strong>Explore the docs »</strong></a>
     <br />
     <br />
  
@@ -99,7 +99,7 @@ Cette application a une interface graphique.
 ## Démarrer le projet
 
 Il existe plusieurs façons de personnaliser ce projet. 
-Dans un premier temps en fournissant un nom dans le fichier [user](https://github.com/Charlene19/tracker/blob/exec/user.json) puis en personnalisant les [questions](https://github.com/Charlene19/tracker/blob/exec/main.py).
+Dans un premier temps en fournissant un nom dans le fichier [user](https://github.com/Charlene19/ankiTrack/blob/exec/user.json) puis en personnalisant les [questions](https://github.com/Charlene19/ankiTrack/blob/exec/main.py).
 Des améliorations sont à venir. Elles seront bientôt dans un fichier json permettant une meilleure personnalisation.
 
 ### Prérequis
@@ -117,7 +117,7 @@ Des améliorations sont à venir. Elles seront bientôt dans un fichier json per
 
 1. Cloner le repo
    ```sh
-   git clone https://github.com/Charlene19/tracker.git
+   git clone https://github.com/Charlene19/ankiTrack.git
    ```
 2. Install env
   
@@ -128,15 +128,15 @@ Des améliorations sont à venir. Elles seront bientôt dans un fichier json per
 ## Usage
 L'accueil personnalisable : 
 
-![Accueil](https://github.com/Charlene19/tracker/blob/exec/accueil.png)
+![Accueil](https://github.com/Charlene19/ankiTrack/blob/exec/accueil.png)
 
 Une des fênetre de suivi : 
 
-![Tracker1](https://github.com/Charlene19/tracker/blob/exec/track2.png)
+![Tracker1](https://github.com/Charlene19/ankiTrack/blob/exec/track2.png)
 
 Le retour et comptage des points : 
 
-![Tracker3](https://github.com/Charlene19/tracker/blob/exec/track3.png)
+![Tracker3](https://github.com/Charlene19/ankiTrack/blob/exec/track3.png)
 
 <!-- LICENSE -->
 ## License
@@ -151,7 +151,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Je suis joignable via mon [site](https://charlene19.github.io/)
 
 
-Project Link:  Link: [https://github.com/Charlene19/tracker/](https://github.com/Charlene19/secondBrain/)
+Project Link:  Link: [https://github.com/Charlene19/tracker/](https://github.com/Charlene19/ankiTrack/)
 
 
 <!-- ACKNOWLEDGEMENTS -->
@@ -165,14 +165,14 @@ Project Link:  Link: [https://github.com/Charlene19/tracker/](https://github.com
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Charlene19/tracker.svg?style=for-the-badge
-[contributors-url]: https://github.com/Charlene19/tracker/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Charlene19/tracker.svg?style=for-the-badge
-[forks-url]: https://github.com/Charlene19/tracker/network/members
-[stars-shield]: https://img.shields.io/github/stars/Charlene19/tracker.svg?style=for-the-badge
-[stars-url]: https://github.com/Charlene19/tracker/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Charlene19/tracker.svg?style=for-the-badge
-[issues-url]: https://github.com/Charlene19/tracker/issues
-[license-shield]: https://img.shields.io/github/license/Charlene19/tracker.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/Charlene19/ankiTrack.svg?style=for-the-badge
+[contributors-url]: https://github.com/Charlene19/ankiTrack/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Charlene19/ankiTrack.svg?style=for-the-badge
+[forks-url]: https://github.com/Charlene19/ankiTrack/network/members
+[stars-shield]: https://img.shields.io/github/stars/Charlene19/ankiTrack.svg?style=for-the-badge
+[stars-url]: https://github.com/Charlene19/ankiTrack/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Charlene19/ankiTrack.svg?style=for-the-badge
+[issues-url]: https://github.com/Charlene19/ankiTrack/issues
+[license-shield]: https://img.shields.io/github/license/Charlene19/ankiTrack.svg?style=for-the-badge
 [license-url]: https://github.com/github_username/repo/blob/master/LICENSE.txt
 
